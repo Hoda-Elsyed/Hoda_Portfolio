@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Source+Code+Pro:ital,wght@0,400;0,900;1,900&family=Source+Sans+Pro:ital,wght@0,300;0,900;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css " />
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <div class="logo"><img class="hoda" src="imgs/dev hoda3.png" alt=""></div>
+        <button class="hamburger">
+          <div class="slice top"></div>
+          <div class="slice bottom"></div>
+          <div class="slice extra "></div>
+        </button>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-me" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item"><a href="#work" class="nav-link">My work</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- section hero -->
+      <section class="hero" id="home">
+        <h1>Hi, Iam <strong>Hoda Elsyed</strong></h1>
+        <p class="head3">Front-End Dev</p>
+        <img class="intro-img" src="imgs/avatar.jpg" alt="" />
+      </section>
+    </header>
+      <!-- section works -->
+      <section class="my-services" id="services">
+       
+        <h2 class="my-serv-title">What I do</h2>
+        <div class="my-speciality">
+          <div class="my-speciality-item">
+            <h3>Development</h3>
+            We'll work through a structured process that will include feedback and iterations to help us get final approved designs.
+            We'll build the site to spec ensuring everything works and looks great across browsers and devices.
+          </div>
+          <div class="my-speciality-item">
+            <h3>Wordpress</h3>
+            I have built content management system with WordPress.
+            WordPress is often the best option to recommend when building small business websites. It’s easy to learn and customize.
+          </div>
+          <div class="my-speciality-item">
+            <h3>Training and Handoff</h3>
+            Before your beautiful new site is ready to launch, I'll provide training and video docs on how to use the CMS and update content.
+          </div>
+        </div>
+        <a href="#work" class="btn">see my work</a>
+
+      </section>
+
+      <!-- section about me -->
+      <section class="about" id="about-me">
+        <h2 class="section-title-about">Who I am</h2>
+        <p class="green">Designer & developer based in Egypt</p>
+        <div class="about-body">
+          <p class="text1">
+            I’m a freelance front-end developer who wants to help make the internet a more creative, accessible, and better place.
+            Devoted to crafting beautiful web experiences focused on simplicity and purpose.
+           
+          </p>
+          <p class="text2">
+            I am an extremely curious and self-motivated individual with a huge passion for design in general. As an autodidact, I take a very positive and ego-free approach to all aspects of my life, and I carry a strong work ethic with me wherever I go.
+          </p>
+        </div>
+        <img class="about-img" src="imgs/portfolio_avatar.jpg" alt="hoda looking trust-worthy">
+        
+      </section>
+      
+      <!-- section my work -->
+      <section class="work" id="work">
+        <h2 class="section-work-title">My work</h2>
+        <p class="section-work-subtitle">A selection of my range of work</p>
+        <div class="work-imgs">
+          <a target="_blank" href="https://hello-caller-app.vercel.app/" class="portfolio-item"><img src="imgs/project2.png" alt=""></a>
+          <a target="_blank" href="https://omnifood-updated-cn5q.vercel.app/" class="portfolio-item"><img src="imgs/project3.png" alt=""></a>
+          <a target="_blank" href="https://bella-shoes-five.vercel.app/" class="portfolio-item"><img src="imgs/project1.png" alt=""></a>
+          <a target="_blank" href="https://vite-project-gilt.vercel.app/" class="portfolio-item"><img src="imgs/project4.png" alt=""></a>
+          <!-- <a target="_blank" href="" class="portfolio-item"><img src="imgs/project2.png" alt=""></a> -->
+          
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer>
+        <a target="_blank" href="dodatiger@gmail.com" class="gmail">dodatiger@gmail.com</a>
+        <ul class="footer-links">
+          <li class="social-item"><a target="_blank" href="https://github.com/Hoda-Elsyed" class="social-link"><i class="fa-brands fa-github"></i></a></li>
+          <li class="social-item"><a target="_blank" href="https://www.linkedin.com/in/hodaelsayed/" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li class="social-item"><a target="_blank" href="https://codepen.io/hoda-elsayed-mohamed" class="social-link"><i class="fab fa-codepen"></i></a></li>
+          <li class="social-item"><a target="_blank" href="" class="social-link"><i class="fa-brands fa-facebook"></i></a></li>
+        </ul>
+      </footer>
+      <script>
+        document.querySelector('.logo').addEventListener('click', ()=>{
+    console.log('happy');
+    // window.open(this.src, 'img')
+})
+      </script>
+      <script src="index.js"></script>
+  
+  </body>
+</html>
