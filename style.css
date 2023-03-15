@@ -352,6 +352,7 @@ h3{font-size: var(--fs-h3);}
      background-color: var(--clr-accent);
      overflow: hidden;
      width: fit-content;
+     margin: 5px;
   
     }
     .portfolio-item img{
